@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: b-labs-models
+Version: 2017.8.22
+Summary: Ready to use CRFSuite models for sentence segmentation, tokenization and so on
+Home-page: https://github.com/bureaucratic-labs/models
+Author: Dmitry Veselov
+Author-email: d.a.veselov@yandex.ru
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: Russian
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: python-crfsuite
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Provides-Extra: train
+Requires-Dist: numpy; extra == 'train'
+Requires-Dist: opencorpora-tools; extra == 'train'
+Requires-Dist: scikit-learn; extra == 'train'
+Requires-Dist: scipy; extra == 'train'
+Requires-Dist: tqdm; extra == 'train'
+
+UNKNOWN
+
+
