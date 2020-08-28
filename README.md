@@ -1,3 +1,3 @@
 # XlabTestProject
-main.py - first task
+main.py - first task \n
 sql_script.py - second task
